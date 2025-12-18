@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ganesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="profile-pic" onclick="openProfile()">
+        <img src="IMG_20250705_162032297_PORTRAIT (2).jpg" alt="Ganesh Profile Picture">
+    </div>
+    <h1>K. Bala Ganesh Manikanta</h1>
+    <p>Aspiring AI & Machine Learning Engineer</p>
+</header>
+
+<!-- ABOUT -->
+<section class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science student with strong interest in Artificial
+        Intelligence, Machine Learning, Cloud Computing, and Full-Stack Development.
+        I enjoy building real-world projects and improving my skills step by step.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section class="section">
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+        <div>
+            <h3>Programming</h3>
+            <ul>
+                <li>Python (Core, OOP)</li>
+                <li>Java (Basics)</li>
+                <li>DSA using Python (Learning)</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Web Development</h3>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>Basic JavaScript</li>
+                <li>Dynamic Login Pages</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>AI / ML</h3>
+            <ul>
+                <li>Machine Learning Fundamentals</li>
+                <li>Spam Detection Concepts</li>
+                <li>Generative AI Basics</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Tools & Cloud</h3>
+            <ul>
+                <li>Git & GitHub</li>
+                <li>Microsoft Azure (Student)</li>
+                <li>MS Office</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>College Information Gen-AI Chatbot</h3>
+        <p>AI chatbot to answer college-related queries.</p>
+    </div>
+
+    <div class="project">
+        <h3>Student Attendance Monitoring System</h3>
+        <p>Location-based, role-based attendance web application.</p>
+    </div>
+
+    <div class="project">
+        <h3>Profile-Based Dynamic Homepage</h3>
+        <p>Personalized homepage inspired by social media platforms.</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section">
+    <h2>Contact</h2>
+    <p>Email: yourmail@gmail.com</p>
+    <p>GitHub: github.com/yourname</p>
+    <p>LinkedIn: linkedin.com/in/yourname</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 K. Bala Ganesh Manikanta</p>
+</footer>
+
+<!-- 3D PROFILE MODAL -->
+<div class="profile-modal" id="profileModal">
+    <div class="profile-3d">
+        <img src="profile.jpg" alt="Ganesh Profile">
+    </div>
+</div>
+
+<!-- SCRIPT -->
+<script>
+    function openProfile() {
+        document.getElementById("profileModal").style.display = "flex";
+    }
+
+    document.getElementById("profileModal").onclick = function () {
+        this.style.display = "none";
+    };
+</script>
+
+</body>
+</html>
